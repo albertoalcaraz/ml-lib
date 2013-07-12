@@ -1,0 +1,38 @@
+#content {
+	background: #BFC7D8;
+}
+
+#open-left {
+  background: url(open.png) center center no-repeat;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
+.snap-drawers {
+  background: #323949;
+}
+
+.snap-drawer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.snap-drawer li > a {
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #000;
+  text-decoration: none;
+  color: #ccc;
+  text-indent: 20px;
+}
+
+.snap-drawer p {
+  opacity: 0.5;
+  padding: 15px;
+  font-size: 12px;
+}
